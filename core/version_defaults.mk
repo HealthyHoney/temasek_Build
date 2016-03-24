@@ -81,7 +81,7 @@ ifeq "" "$(PLATFORM_BASE_OS)"
   # Can be an arbitrary string, but must be a single word.
   #
   # If there is no $PLATFORM_BASE_OS set, keep it empty.
-  PLATFORM_BASE_OS :=
+  PLATFORM_BASE_OS := Android
 endif
 
 ifeq "" "$(DEFAULT_APP_TARGET_SDK)"
